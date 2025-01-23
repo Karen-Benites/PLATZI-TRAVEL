@@ -33,6 +33,7 @@
                     <span class="block w-5 h-5 ml-auto mr-auto bg-moon bg-cover bg-center"></span>
                 </button>
             </div>
+            
             <div class="h-[364px] w-10/12 flex flex-col justify-between items-center md:w-11/12 md:justify-start md:items-start">
                 <div class="flex items-center justify-start w-full h-12 pl-3 bg-white rounded-full shadow-custom-normal md:hidden">
                     <span class="block w-4 h-4 m-1 bg-SearchIcon bg-cover bg-center"></span>
@@ -47,75 +48,100 @@
     </header>
     <main class="w-full h-auto p-4">
         <section id="Recommendations" class="mt-4">
-            <h2 class="mb-8 font-semibold text-primary text-2xl md:text-4xl md:mb-12">Our Recommendations</h2>
+            <h2 class="section__title">Our Recommendations</h2>
             <article class="overflow-x-scroll">
                 <div class="flex gap-5 mb-3 min-w-min">
-                    <div class="flex-1 w-[40vw] min-w-[155px] max-w-[278px] aspect-[155/187] shadow-md rounded-lg overflow-hidden">
-                        <div class="w-full h-3/5 bg-norway bg-cover bg-no-repeat bg-center">
-                        </div>
-                        <div class="h-2/5 w-full pt-3 pl-3 md:pl-4 md:pt-6 bg-secondary text-white">
-                            <p class="Country-title__fluid font-bold">Norway</p>
-                            <p class="description__fluid">Beautiful landscapes</p>
-                        </div>
-                    </div>
-                    <div class="flex-1 w-[40vw] min-w-[155px] max-w-[278px] aspect-[155/187] shadow-md rounded-lg overflow-hidden">
-                        <div class="w-full h-3/5 bg-NewYork bg-cover bg-no-repeat bg-center">
-                        </div>
-                        <div class="h-2/5 w-full pt-3 pl-3 md:pl-4 md:pt-6 bg-white text-terciary">
-                            <p class="Country-title__fluid font-bold">New York</p>
-                            <p class="description__fluid">Concrete jungle</p>
-                        </div>
-                    </div>
-                    <div class="flex-1 w-[40vw] min-w-[155px] max-w-[278px] aspect-[155/187] shadow-md rounded-lg overflow-hidden">
-                        <div class="w-full h-3/5 bg-yosemite bg-cover bg-no-repeat bg-center">
-                        </div>
-                        <div class="h-2/5 w-full pt-3 pl-3 md:pl-4 md:pt-6 bg-secondary text-white">
-                          <p class="Country-title__fluid font-bold">Yosemite</p>
-                            <p class="description__fluid">A break from the world</p>
-                        </div>
-                    </div>
-                    <div class="flex-1 w-[40vw] min-w-[155px] max-w-[278px] aspect-[155/187] shadow-md rounded-lg overflow-hidden">
-                        <div class="w-full h-3/5 bg-seattle bg-cover bg-no-repeat bg-center">
-                        </div>
-                        <div class="h-2/5 w-full pt-3 pl-3 md:pl-4 md:pt-6 bg-white text-terciary">
-                            <p class="Country-title__fluid font-bold">Seattle</p>
-                            <p class="description__fluid">Big city</p>
-                        </div>
-                    </div>
-                    <div class="flex-1 w-[40vw] min-w-[155px] max-w-[278px] aspect-[155/187] shadow-md rounded-lg overflow-hidden">
-                        <div class="w-full h-3/5 bg-switzerland bg-cover bg-no-repeat bg-center">
-                        </div>
-                        <div class="h-2/5 w-full pt-3 pl-3 md:pl-4 md:pt-6 bg-secondary text-white">
-                            <p class="Country-title__fluid font-bold">Switzerland</p>
-                            <p class="description__fluid">Big city</p>
-                        </div>
-                    </div>
+                    <article class="card w-[40vw] min-w-[155px] max-w-[278px] aspect-[155/187] shadow-md rounded-lg overflow-hidden">
+                        <figure class="w-full h-full">
+                            <img 
+                                src="./imgs/norway.jpg" 
+                                alt="Norway landscape with beautiful fiords"
+                                class="w-full h-3/5 object-cover"
+                            />
+                            <figcaption class="h-2/5 w-full pt-3 pl-3 md:pl-4 md:pt-6 bg-secondary text-white">
+                                <h3 class="Country-title__fluid font-bold">Norway</h3>
+                                <p class="description__fluid">Beautiful landscapes</p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article class="card w-[40vw] min-w-[155px] max-w-[278px] aspect-[155/187] shadow-md rounded-lg overflow-hidden">
+                        <figure class="w-full h-full">
+                            <img 
+                                src="./imgs/NewYork.jpg" 
+                                alt="Panoramic view of New York city"
+                                class="w-full h-3/5 object-cover"
+                            />
+                            <figcaption class="h-2/5 w-full pt-3 pl-3 md:pl-4 md:pt-6  bg-white text-terciary">
+                                <h3 class="Country-title__fluid font-bold">New York</h3>
+                                <p class="description__fluid">Concrete jungle</p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article class="card w-[40vw] min-w-[155px] max-w-[278px] aspect-[155/187] shadow-md rounded-lg overflow-hidden">
+                        <figure class="w-full h-full">
+                            <img 
+                                src="./imgs/yosemite.jpg" 
+                                alt="Landscape view of a Yosemite's lake"
+                                class="w-full h-3/5 object-cover"
+                            />
+                            <figcaption class="h-2/5 w-full pt-3 pl-3 md:pl-4 md:pt-6 bg-secondary text-white">
+                                <h3 class="Country-title__fluid font-bold">Yosemite</h3>
+                                <p class="description__fluid">A break from the world</p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article class="card w-[40vw] min-w-[155px] max-w-[278px] aspect-[155/187] shadow-md rounded-lg overflow-hidden">
+                        <figure class="w-full h-full">
+                            <img 
+                                src="./imgs/seattle.jpg" 
+                                alt="Panoramic view of Seattle"
+                                class="w-full h-3/5 object-cover"
+                            />
+                            <figcaption class="h-2/5 w-full pt-3 pl-3 md:pl-4 md:pt-6  bg-white text-terciary">
+                                <h3 class="Country-title__fluid font-bold">Seattle</h3>
+                                <p class="description__fluid">Big city</p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article class="card w-[40vw] min-w-[155px] max-w-[278px] aspect-[155/187] shadow-md rounded-lg overflow-hidden">
+                        <figure class="w-full h-full">
+                            <img 
+                                src="./imgs/switzerland.jpg" 
+                                alt="Swiss village"
+                                class="w-full h-3/5 object-cover"
+                            />
+                            <figcaption class="h-2/5 w-full pt-3 pl-3 md:pl-4 md:pt-6 bg-secondary text-white">
+                                <h3 class="Country-title__fluid font-bold">Switzerland</h3>
+                                <p class="description__fluid">A break from the world</p>
+                            </figcaption>
+                        </figure>
+                    </article>
                 </div>
             </article>
         </section>
         <section id="TrendingStays" class="mt-6 h-auto md:mt-20">
-            <h2 class="mb-6 font-semibold text-primary text-2xl md:text-4xl md:mb-12">Trending Stays</h2>
-            <div class="grid grid-cols-1 auto-rows-[403px] gap-10 md:grid-cols-3 px-3">
-                <article class="flex flex-col items-start md:items-end md:col-start-1 md:col-span-3 w-full h-full pt-12 px-6 bg-chicago bg-cover bg-no-repeat bg-center rounded-2xl text-white">
+            <h2 class="section__title">Trending Stays</h2>
+            <div class="grid grid-cols-1 auto-rows-[403px] gap-10 md:grid-cols-3 px-3 text-white">
+                <article class="flex flex-col items-start md:items-end md:col-start-1 md:col-span-3 w-full h-full pt-12 px-6 bg-chicago bg-cover bg-no-repeat bg-center rounded-2xl">
                     <h3 class="font-extrabold text-2xl">Chicago</h3>
                     <p class=" w-8/12 text-base font-medium md:text-end">2 rooms, bathroom and kitchen.</p>
                 </article>
-                <article class="flex flex-col items-start md:items-end md:row-start-2 md:row-span-2 w-full h-full pt-12 px-6 bg-LA bg-cover bg-no-repeat bg-center rounded-2xl text-white">
+                <article class="flex flex-col items-start md:items-end md:row-start-2 md:row-span-2 w-full h-full pt-12 px-6 bg-LA bg-cover bg-no-repeat bg-center rounded-2xl">
                     <h3 class="font-extrabold text-2xl">Los Angeles</h3>
                     <p class=" w-8/12 text-base font-medium md:text-end">4 rooms, 3 bathrooms,  kitchen and private pool.</p>
                 </article>
-                <article class="flex flex-col items-start md:items-end md:col-start-2 md:col-span-2 w-full h-full pt-12 px-6 bg-Miami bg-cover bg-no-repeat bg-center rounded-2xl text-white">
+                <article class="flex flex-col items-start md:items-end md:col-start-2 md:col-span-2 w-full h-full pt-12 px-6 bg-Miami bg-cover bg-no-repeat bg-center rounded-2xl">
                     <h3 class="font-extrabold text-2xl">Miami</h3>
                     <p class=" w-8/12 text-base font-medium md:text-end">3 rooms, 2 bathrooms,  kitchen and amazing sea view.</p>
                 </article>
-                <article class="flex flex-col items-start md:items-end md:col-start-2 md:col-span-2 w-full h-full pt-12 px-6 bg-bali bg-cover bg-no-repeat bg-center rounded-2xl text-white">
+                <article class="flex flex-col items-start md:items-end md:col-start-2 md:col-span-2 w-full h-full pt-12 px-6 bg-bali bg-cover bg-no-repeat bg-center rounded-2xl">
                     <h3 class="font-extrabold text-2xl">Bali</h3>
                     <p class=" w-8/12 text-base font-medium md:text-end">2 rooms, 2 bathrooms,  kitchen and private pool.</p>
                 </article>
             </div>
         </section>
         <section id="FAQs" class="mt-10 mb-14 md:mt-16">
-            <h2 class="mb-6 px-3 font-semibold text-primary text-2xl md:text-4xl md:mb-10">FAQS</h2>
+            <h2 class="px-3 section__title">FAQS</h2>
             <article class="mb-5 px-3 md:mb-12">
                 <p class="text-base text-primary font-semibold pb-2 md:text-3xl">Payment Methods</p>
                 <p class="text-xs font-medium md:text-xl">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
@@ -135,15 +161,15 @@
         </section>
     </main>
     <footer id="AboutUs" class="px-4 pt-4 pb-8 mb-16 md:pb-16 md:mb-0 bg-[#FCFBFB] text-[#CCC] border-2 border-gray-100">
-        <h2 class="text-lg mb-4 md:text-3xl font-semibold md:mb-7">About Us</h2>
+        <h2 class="text-lg mb-5 md:text-3xl font-semibold md:mb-7">About Us</h2>
         <nav>
-            <ul>
-                <li class="mb-3 text-sm md:mb-5 md:text-xl font-medium"><a href="/">Investors</a></li>
-                <li class="mb-3 text-sm md:mb-5 md:text-xl font-medium"><a href="/">Jobs</a></li>
-                <li class="mb-3 text-sm md:mb-5 md:text-xl font-medium"><a href="/">Privacy Policy</a></li>
-                <li class="mb-3 text-sm md:mb-5 md:text-xl font-medium"><a href="/">Terms and conditions</a></li>
-                <li class="mb-3 text-sm md:mb-5 md:text-xl font-medium"><a href="/">Platzi Travel, inc</a></li>
-                <li class="mb-3 text-sm md:mb-5 md:text-xl font-medium"><a href="/">Follow us</a></li>
+            <ul class="text-sm font-medium md:text-xl">
+                <li><a class="block w-52 md:w-72 pb-4 md:pb-5" aria-label="Know our investors" href="/">Investors</a></li>
+                <li><a class="block w-52 md:w-72 pb-4 md:pb-5" aria-label="Look up for our available jobs" href="/">Jobs</a></li>
+                <li><a class="block w-52 md:w-72 pb-4 md:pb-5" aria-label="Know our privacy policy" href="/">Privacy Policy</a></li>
+                <li><a class="block w-52 md:w-72 pb-4 md:pb-5" aria-label="Know our terms and conditions" href="/">Terms and conditions</a></li>
+                <li><a class="block w-52 md:w-72 pb-4 md:pb-5" aria-label="Know our company, Platzi" href="/">Platzi Travel, inc</a></li>
+                <li><a class="block w-52 md:w-72 pb-4 md:pb-5" aria-label="Follow our social media" href="/">Follow us</a></li>
             </ul>
         </nav>
         <article class="flex gap-2 md:gap-3 md:mb-0">
@@ -158,12 +184,12 @@
     <nav class="fixed flex items-center justify-center bottom-0 w-full h-16 bg-white md:hidden">
         <ul class="flex gap-9 justify-between w-9/12">
             <li>
-                <a href="#Recommendations">
+                <a href="#Recommendations" aria-label="Go to recommendations">
                     <img src="./imgs/icons/Home.svg" alt="">
                 </a>
             </li>
             <li>
-                <a href="#SearchBar">
+                <a href="#SearchBar" aria-label="Go to Search Bar">
                     <img src="./imgs/icons/SearchTabBar.svg" alt="">
                 </a>
             </li>

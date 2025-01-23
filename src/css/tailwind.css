@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+    .section__title{
+        @apply mb-6 font-semibold text-primary text-2xl md:text-4xl md:mb-12;
+    }
+}
+
 .Country-title__fluid{
     font-size: clamp(0.875rem, 4vw, 1.5rem);
 }
