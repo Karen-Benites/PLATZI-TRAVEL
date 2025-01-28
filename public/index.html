@@ -121,24 +121,36 @@
         </section>
         <section id="TrendingStays" class="mt-6 h-auto md:mt-20">
             <h2 class="section__title">Trending Stays</h2>
-            <div class="grid grid-cols-1 auto-rows-[403px] gap-10 md:grid-cols-3 px-3 text-white">
-                <article class="flex flex-col items-start md:items-end md:col-start-1 md:col-span-3 w-full h-full pt-12 px-6 bg-chicago bg-cover bg-no-repeat bg-center rounded-2xl">
-                    <h3 class="font-extrabold text-2xl">Chicago</h3>
-                    <p class=" w-8/12 text-base font-medium md:text-end">2 rooms, bathroom and kitchen.</p>
-                </article>
-                <article class="flex flex-col items-start md:items-end md:row-start-2 md:row-span-2 w-full h-full pt-12 px-6 bg-LA bg-cover bg-no-repeat bg-center rounded-2xl">
-                    <h3 class="font-extrabold text-2xl">Los Angeles</h3>
-                    <p class=" w-8/12 text-base font-medium md:text-end">4 rooms, 3 bathrooms,  kitchen and private pool.</p>
-                </article>
-                <article class="flex flex-col items-start md:items-end md:col-start-2 md:col-span-2 w-full h-full pt-12 px-6 bg-Miami bg-cover bg-no-repeat bg-center rounded-2xl">
-                    <h3 class="font-extrabold text-2xl">Miami</h3>
-                    <p class=" w-8/12 text-base font-medium md:text-end">3 rooms, 2 bathrooms,  kitchen and amazing sea view.</p>
-                </article>
-                <article class="flex flex-col items-start md:items-end md:col-start-2 md:col-span-2 w-full h-full pt-12 px-6 bg-bali bg-cover bg-no-repeat bg-center rounded-2xl">
-                    <h3 class="font-extrabold text-2xl">Bali</h3>
-                    <p class=" w-8/12 text-base font-medium md:text-end">2 rooms, 2 bathrooms,  kitchen and private pool.</p>
-                </article>
-            </div>
+            <article class="grid grid-cols-1 auto-rows-[403px] gap-10 md:grid-cols-3 px-3 text-white">
+                <figure class="relative md:col-start-1 md:col-span-3 w-full h-full">
+                    <img src="./imgs/chicago.jpg" alt="White room" class="w-full h-full object-cover rounded-2xl" />
+                    <figcaption class="absolute top-0 pt-12 px-6 w-full flex flex-col items-start md:items-end">
+                      <h3 class="font-extrabold text-2xl">Chicago</h3>
+                      <p class=" w-8/12 text-base font-medium md:text-end">2 rooms, bathroom and kitchen.</p>
+                    </figcaption>
+                </figure>
+                <figure class="relative md:col-start-1 md:row-start-2 md:row-span-2 w-full h-full">
+                    <img src="./imgs/LA.jpg" alt="White room" class="w-full h-full object-cover rounded-2xl" />
+                    <figcaption class="absolute top-0 pt-12 px-6 w-full flex flex-col items-start md:items-end">
+                      <h3 class="font-extrabold text-2xl">Los Angeles</h3>
+                      <p class=" w-8/12 text-base font-medium md:text-end">4 rooms, 3 bathrooms, kitchen and private pool.</p>
+                    </figcaption>
+                </figure>
+                <figure class="relative md:col-start-2 md:col-span-2 w-full h-full">
+                    <img src="./imgs/miami.jpg" alt="White room" class="w-full h-full object-cover rounded-2xl" />
+                    <figcaption class="absolute top-0 pt-12 px-6 w-full flex flex-col items-start md:items-end">
+                      <h3 class="font-extrabold text-2xl">Miami</h3>
+                      <p class=" w-8/12 text-base font-medium md:text-end">3 rooms, 2 bathrooms, kitchen and amazing sea view.</p>
+                    </figcaption>
+                </figure>
+                <figure class="relative md:col-start-2 md:col-span-2 w-full h-full">
+                    <img src="./imgs/bali.jpg" alt="White room" class="w-full h-full object-cover rounded-2xl" />
+                    <figcaption class="absolute top-0 pt-12 px-6 w-full flex flex-col items-start md:items-end">
+                      <h3 class="font-extrabold text-2xl">Bali</h3>
+                      <p class=" w-8/12 text-base font-medium md:text-end">2 rooms, 2 bathrooms, kitchen and private pool</p>
+                    </figcaption>
+                </figure>
+            </article>
         </section>
         <section id="FAQs" class="mt-10 mb-14 md:mt-16">
             <h2 class="px-3 section__title">FAQS</h2>
@@ -160,7 +172,7 @@
             </article>
         </section>
     </main>
-    <footer id="AboutUs" class="px-4 pt-4 pb-8 mb-16 md:pb-16 md:mb-0 bg-[#FCFBFB] text-slate-400 border-2 border-gray-100">
+    <footer id="AboutUs" class="px-4 pt-4 pb-8 mb-16 md:pb-16 md:mb-0 bg-[#FCFBFB] text-slate-700 border-2 border-gray-100">
         <h2 class="text-lg mb-5 md:text-3xl font-semibold md:mb-7">About Us</h2>
         <nav>
             <ul class="text-sm font-medium md:text-xl">
