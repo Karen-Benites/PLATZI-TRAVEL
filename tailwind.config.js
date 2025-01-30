@@ -30,7 +30,7 @@ module.exports = {
         terciary: "#61AEC9",
       }),
 
-      textColor: {
+      colors: {
         primary: "#CC2D4A",
         secondary: "#8FA206",
         terciary: "#61AEC9",
@@ -42,6 +42,8 @@ module.exports = {
 
       boxShadow: {
         'custom-normal': "0px 2px 7px 0px rgba(0, 0, 0, 0.25)",
+        'custom-shadow-focus': "inset 0px 0px 1px 1px rgba(204, 45, 74, 0.9)",
+        'card_hover_shadow': "0px 0px 10px 2px rgba(0, 0, 0, 0.5)"
       },
 
       backgroundSize: {
