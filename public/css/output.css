@@ -921,15 +921,15 @@ video {
 }
 
 .bg-SanFrancisco {
-  background-image: url('/public/imgs/SanFrancisco.jpg');
+  background-image: url('https://raw.githubusercontent.com/Karen-Benites/PLATZI-TRAVEL/refs/heads/main/public/imgs/sanFrancisco.jpg');
 }
 
 .bg-SearchIcon {
-  background-image: url(/public/imgs/icons/SearchIcon.svg);
+  background-image: url(https://raw.githubusercontent.com/Karen-Benites/PLATZI-TRAVEL/87dcccf6971db429976a3ceea6512bda8b2e57a9/public/imgs/icons/SearchIcon.svg);
 }
 
 .bg-moon {
-  background-image: url(/public/imgs/icons/moon.svg);
+  background-image: url(https://raw.githubusercontent.com/Karen-Benites/PLATZI-TRAVEL/87dcccf6971db429976a3ceea6512bda8b2e57a9/public/imgs/icons/moon.svg);
 }
 
 .bg-cover {
@@ -1390,7 +1390,7 @@ video {
   }
 
   .md\:bg-SanFranciscoDesktop {
-    background-image: url('/public/imgs/SanFranciscoDesktop.jpg');
+    background-image: url('https://raw.githubusercontent.com/Karen-Benites/PLATZI-TRAVEL/refs/heads/main/public/imgs/sanFranciscoDesktop.jpg');
   }
 
   .md\:pb-16 {
