@@ -6,7 +6,7 @@ about: "Report an error to help us improve our project"
 
 title: "[BUG] - Error's short description"
 
-labels: bug
+labels: -bug
 
 assignees: ""
 
