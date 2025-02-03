@@ -8,7 +8,6 @@ module.exports = {
         'SanFranciscoDesktop': "url('/public/imgs/SanFranciscoDesktop.jpg')",
         'SearchIcon': "url(/public/imgs/icons/SearchIcon.svg)",
         'moon': 'url(/public/imgs/icons/moon.svg)',
-        'user': "url(/public/imgs/icons/User.svg)"
       },
 
       colors: {
