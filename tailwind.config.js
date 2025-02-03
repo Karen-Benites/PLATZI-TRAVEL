@@ -1,34 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./public/**/*.{html,js}', './src/**/*.{html,js}'],
+  content: ['./index.html', './public/**/*.{html,js}', './src/**/*.{html,js}'],
   theme: {
     extend: {
       backgroundImage: {
-        'SanFrancisco': "url('../imgs/SanFrancisco.jpg')",
-        'bali': "url('../imgs/bali.jpg')",
-        'chicago': "url('../imgs/chicago.jpg')",
-        'europe': "url('../imgs/europe.jpg')",
-        'iceland': "url('../imgs/iceland.jpg')",
-        'LA': "url('../imgs/LA.jpg')",
-        'Miami': "url('../imgs/miami.jpg')",
-        'NewYork': "url('../imgs/NewYork.jpg')",
-        'norway': "url('../imgs/norway.jpg')",
-        'SanFranciscoDesktop': "url('../imgs/SanFranciscoDesktop.jpg')",
-        'seattle': "url('../imgs/seattle.jpg')",
-        'switzerland': "url('../imgs/switzerland.jpg')",
-        'sydney': "url('../imgs/sydney.jpg')",
-        'yosemite': "url('../imgs/yosemite.jpg')",
-        'SearchIcon': "url(../imgs/icons/SearchIcon.svg)",
-        'moon': 'url(../imgs/icons/moon.svg)',
-        'user': "url(../imgs/icons/User.svg)"
+        'SanFrancisco': "url('/public/imgs/SanFrancisco.jpg')",
+        'SanFranciscoDesktop': "url('/public/imgs/SanFranciscoDesktop.jpg')",
+        'SearchIcon': "url(/public/imgs/icons/SearchIcon.svg)",
+        'moon': 'url(/public/imgs/icons/moon.svg)',
+        'user': "url(/public/imgs/icons/User.svg)"
       },
-
-      backgroundColor: (theme) => ({
-        ...theme("colors"),
-        primary: "#CC2D4A",
-        secondary: "#8FA206",
-        terciary: "#61AEC9",
-      }),
 
       colors: {
         primary: "#CC2D4A",
