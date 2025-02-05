@@ -4,11 +4,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'SanFrancisco': "url('/public/imgs/SanFrancisco.jpg')",
-        'SanFranciscoDesktop': "url('/public/imgs/SanFranciscoDesktop.jpg')",
-        'SearchIcon': "url(/public/imgs/icons/SearchIcon.svg)",
-        'moon': 'url(/public/imgs/icons/moon.svg)',
-        'user': "url(/public/imgs/icons/User.svg)"
+        'SanFrancisco': "url('https://raw.githubusercontent.com/Karen-Benites/PLATZI-TRAVEL/refs/heads/main/public/imgs/sanFrancisco.jpg')",
+        'SanFranciscoDesktop': "url('https://raw.githubusercontent.com/Karen-Benites/PLATZI-TRAVEL/refs/heads/main/public/imgs/sanFranciscoDesktop.jpg')",
+        'SearchIcon': "url(https://raw.githubusercontent.com/Karen-Benites/PLATZI-TRAVEL/87dcccf6971db429976a3ceea6512bda8b2e57a9/public/imgs/icons/SearchIcon.svg)",
+        'moon': 'url(https://raw.githubusercontent.com/Karen-Benites/PLATZI-TRAVEL/87dcccf6971db429976a3ceea6512bda8b2e57a9/public/imgs/icons/moon.svg)',
       },
 
       colors: {

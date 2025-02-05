@@ -14,3 +14,17 @@
 .description__fluid {
     font-size: clamp(8px, 2.5vw, 1rem);
 }
+
+.background_SanFrancisco{
+    background-image: url('../../public/imgs/sanFrancisco.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background_SanFranciscoDesktop{
+    background-image: url('../../public/imgs/sanFranciscoDesktop.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
