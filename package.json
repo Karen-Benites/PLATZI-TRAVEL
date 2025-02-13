@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/output.css --watch"
+    "dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/output.css --watch",
+    "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/output.css"
   },
   "devDependencies": {
     "prettier": "^3.4.2",
